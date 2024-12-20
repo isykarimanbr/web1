@@ -1,0 +1,95 @@
+
+        /* Custom styles for the header */
+        .header {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://example.com/your-cool-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+            box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+        }
+
+        .header h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 4rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        .header p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #f8f9fa;
+        }
+
+        .search-input {
+            max-width: 450px;
+            margin: 20px auto;
+            display: block;
+            font-size: 1.2rem;
+            padding: 15px 20px;
+            border-radius: 30px;
+            border: 2px solid #f8f9fa;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+        }
+
+        .search-input::placeholder {
+            color: #f8f9fa;
+            opacity: 0.8;
+        }
+
+        .search-section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card-body h5 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .card-body p {
+            color: #555;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-img-top {
+            border-radius: 10px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
